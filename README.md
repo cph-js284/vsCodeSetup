@@ -2,7 +2,7 @@
 Readme file containing custom task setup for test with coverlet
 
 1) Get extensions: <b>coverlet</b> and <b>coverage gutters</b>
-2) modify tasks.json with the following
+2) Modify tasks.json with the following
 ```
   {
       "label": "test_coverlet",
@@ -13,7 +13,7 @@ Readme file containing custom task setup for test with coverlet
           "/p:CollectCoverage=true",
           "/p:CoverletOutputFormat=lcov",
           "/p:CoverletOutput=./lcov.info",
-          "${workspaceFolder}/<PATH TO TEST PROJECT>/<PATH TO TEST PROJECT *.csproj FILE>"
+          "${workspaceFolder}/<PATH TO TEST PROJECT>/<NAME OF TESTPROJECT *.csproj FILE>"
       ],
       "problemMatcher": "$msCompile",
       "group": {
@@ -22,4 +22,4 @@ Readme file containing custom task setup for test with coverlet
       }
   }
 ```
-3) possibly modify keyboard shortcut *Tasks: Run Test Task*
+3) Possibly modify keyboard shortcut *Tasks: Run Test Task*
