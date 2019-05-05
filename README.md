@@ -2,6 +2,9 @@
 Readme file containing custom task setup for test with coverlet
 
 1) Get extensions: <b>coverlet</b> and <b>coverage gutters</b>
+```
+dotnet tool install --global coverlet.console
+```
 2) Modify tasks.json with the following
 ```
   {
